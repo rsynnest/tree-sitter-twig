@@ -10,7 +10,7 @@ To use this grammar with nvim-treesitter, add this to your nvim config after `re
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.twig = {
   install_info = {
-    url = "eirabben/tree-sitter-twig",
+    url = "https://github.com/eirabben/tree-sitter-twig",
     files = {"src/parser.c", "src/scanner.cc"},
     branch = "main",
   },
